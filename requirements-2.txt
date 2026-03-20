@@ -1,0 +1,3 @@
+# requirements.txt — Python зависимости
+aiogram==3.7.0
+websockets==12.0
