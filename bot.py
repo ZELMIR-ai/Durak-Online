@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8753178779:AAGGGUHjCOKVlBg7pxlQRX1BKL-MUCHgwdo")
-WEBAPP_URL = os.getenv("WEBAPP_URL", "https://your-domain.com")  # URL вашего фронтенда
+WEBAPP_URL = os.getenv("WEBAPP_URL", "https://zelmir-ai.github.io/Durak-Html/")  # URL вашего фронтенда
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
