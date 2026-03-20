@@ -7,4 +7,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . .
 
-CMD python server.py & python bot.py
+CMD ["sh", "-c", "python server.py & python bot.py & wait"]
